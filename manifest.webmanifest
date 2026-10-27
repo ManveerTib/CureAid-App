@@ -1,0 +1,68 @@
+{
+  "name": "CureAid: find the program that pays for your medication",
+  "short_name": "CureAid",
+  "description": "Search 123 drugmaker support programs for specialty medications, check if you qualify, and prepare for the enrollment call.",
+  "id": "./",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F6F5",
+  "theme_color": "#F3F6F5",
+  "categories": [
+    "health",
+    "medical"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Programs",
+      "url": "./#search",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Eligibility",
+      "url": "./#search?tab=match",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Call coach",
+      "url": "./#coach",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
